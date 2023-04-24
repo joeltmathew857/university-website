@@ -6,7 +6,7 @@ export default function Experts() {
     <div className="max-w-1[1240px] mx-auto border border-black  grid grid-cols-3">
       <div className="border border-black h-400 w-200 col-span-1">
         <img src={Laptop} />
-        hi
+        <imd src={Laptop} />
       </div>
     </div>
   );
