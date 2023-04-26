@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-export default function Header() {
+export const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-6">
       <div className="max-w-5xl flex justify-between py-10 place-items-center">
-        <div className="font-bold text-2xl font-mono text-yellow-50">
-          BEEWORLS
+        <div className="font-bold w-26 h-4">
+          bee
         </div>
         {toggle ? (
           <AiOutlineMenu
@@ -34,3 +34,4 @@ export default function Header() {
     </div>
   );
 }
+

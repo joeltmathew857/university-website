@@ -15,7 +15,7 @@ function MyButton() {
   const [count, setCount] = useState(0);
 
   function handleClick() {
-    setCount(count + 1);
+    setCount(count + 4);
   }
 
   return (
